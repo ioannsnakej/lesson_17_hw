@@ -171,8 +171,7 @@
 
     sudo crontab -e
 
-  <img width="815" height="745" alt="image" src="https://github.com/user-attachments/assets/a2368a57-76a4-461d-a1e1-54ffd7ee448c" />
-
+  <img width="1219" height="704" alt="image" src="https://github.com/user-attachments/assets/f2aa6be0-11d2-4ff3-862d-549cc278b19d" />
 
   проверяю:
 
