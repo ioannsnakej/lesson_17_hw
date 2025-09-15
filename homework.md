@@ -108,7 +108,7 @@
 
   1. Создаю скрипт для создания дампа (переписываю с урока):
 
-          #!/usr/bin/env bash
+          1 #!/usr/bin/env bash                                                                  
           2 
           3 #Проверка, что переданы параметры (опция и имя бд)
           4 if [ "$#" -ne 2 ]; then
@@ -138,12 +138,46 @@
          28   "--create") mysqldump ${DEFS} ${DB_NAME} > "${BKP_DIR}/${TIMESTAMP}-${DB_NAME}.sql"
          29   ;;
          30   "--restore") read -p "Set backup name: " restored
-         31         mysql ${DEFS} ${DB_NAME} < ${BKP_DIR}/${restored}
-         32   ;;
-         33   *) echo "No such option"
+         31         mysql ${DEFS} -e "drop database if exists ${DB_NAME};"
+         32         mysql ${DEFS} -e "create database ${DB_NAME};"
+         33         mysql ${DEFS} ${DB_NAME} < ${BKP_DIR}/${restored}
          34   ;;
-         35 esac   
+         35   *) echo "No such option"
+         36   ;;
+         37 esac
 
+
+  проверяю создание бэкапа:
+
+  <img width="810" height="114" alt="image" src="https://github.com/user-attachments/assets/9c417d5e-e1c9-4d53-8923-9585ad2b7029" />
+
+  кусок из файла бэкапа:
+
+  <img width="902" height="647" alt="image" src="https://github.com/user-attachments/assets/67008462-dc45-40d7-b578-0e275ad5b9fe" />
+
+  добавляю таблицу группы:
+
+  <img width="905" height="425" alt="image" src="https://github.com/user-attachments/assets/649074ec-f510-44b7-8ce2-bc526ab1baf0" />
+
+  запускаю скрипт с опцией --restore:
+
+  <img width="773" height="152" alt="image" src="https://github.com/user-attachments/assets/0b491c48-97e8-460f-926c-2190029ba187" />
+
+  проверяю бд:
+
+  <img width="912" height="666" alt="image" src="https://github.com/user-attachments/assets/d633b11f-8a20-4c5f-a851-34d4cc71d60d" />
+
+
+  
+
+  
+
+
+
+  
+
+
+  
 
 
 
