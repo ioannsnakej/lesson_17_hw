@@ -169,9 +169,17 @@
 
   добавляю расписание в crontab:
 
-    crontab -e
+    sudo crontab -e
 
-  <img width="836" height="656" alt="image" src="https://github.com/user-attachments/assets/c52ab5b5-b096-4ed4-97a1-752b62ea1590" />
+  <img width="815" height="745" alt="image" src="https://github.com/user-attachments/assets/a2368a57-76a4-461d-a1e1-54ffd7ee448c" />
+
+
+  проверяю:
+
+  
+
+  
+
 
 
 
