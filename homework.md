@@ -167,6 +167,13 @@
 
   <img width="912" height="666" alt="image" src="https://github.com/user-attachments/assets/d633b11f-8a20-4c5f-a851-34d4cc71d60d" />
 
+  добавляю расписание в crontab:
+
+    crontab -e
+
+  <img width="836" height="656" alt="image" src="https://github.com/user-attachments/assets/c52ab5b5-b096-4ed4-97a1-752b62ea1590" />
+
+
 
   
 
