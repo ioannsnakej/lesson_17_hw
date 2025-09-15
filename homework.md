@@ -66,6 +66,32 @@
 
   <img width="908" height="754" alt="image" src="https://github.com/user-attachments/assets/6a356c03-e653-4587-929e-e14dcfe7dda6" />
 
+Задание 2(опционально):
+Используя left join, напишите запрос, который будет выводить список всех
+студентов и названий их курсов, которые они изучают. Если у студента нет
+курсов, то вместо названия курса нужно выводить NULL. Для этого вам
+необходимо связать таблицы "Студенты" и "Курсы".
+
+  Создаю базу:
+
+  <img width="857" height="318" alt="image" src="https://github.com/user-attachments/assets/0f76e6a3-5d79-4191-ac9f-e1c59398f7f9" />
+
+  Создаю таблицы:
+
+  <img width="1871" height="413" alt="image" src="https://github.com/user-attachments/assets/d1c8175c-9eb9-4d78-93dc-f332f60245f6" />
+
+  Добавляю значения:
+
+  <img width="1868" height="389" alt="image" src="https://github.com/user-attachments/assets/0c0b6c23-6cc1-47b4-a347-70ad87464f00" />
+
+  Пишу селект:
+
+  <img width="884" height="462" alt="image" src="https://github.com/user-attachments/assets/fc6f9aba-8893-4197-b8a3-56e9f3d0f039" />
+
+
+
+
+
 
 
 
