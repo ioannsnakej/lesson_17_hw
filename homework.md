@@ -175,7 +175,8 @@
 
   проверяю:
 
-  
+  <img width="1189" height="897" alt="image" src="https://github.com/user-attachments/assets/bc12b998-d30d-4b16-af24-0ca1df88b7bb" />
+
 
   
 
